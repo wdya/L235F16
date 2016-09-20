@@ -2,11 +2,55 @@
   <head>
     <title>Hello World</title>
     <link rel="shortcut icon" href="/L235F16/images/faviconnms.ico" type="image/x-icon">
+     <style type "text/css">
+<!--
+/* @group Blink */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/* @end */
+-->
+</style>
   <head>
   <body bgcolor="eaade1">
     <font face="trebuchet MS">
       <font size="30" color="e02424"><i><b>Home on the Range</b></i></font><br><br>
-      <blink>Welcome to my homepage.</blink> <a href="/L235F16/HTML/AboutMe.html">About Me</a><br><br>
+      <p class="tab blink"><a href="/L235F16/HTML/AboutMe.html">About Me</a></p><br>
+      <p>Welcome to my homepage.</p><br><br>
       <img src="/L235F16/images/Introduction to Media - Korra Poster.jpg" height="384" alt="The Legend of Korra" hspace="8">
       <img src="/L235F16/images/Introduction to Media - Ramsay.png" alt="A valentine from Gordon Ramsay" hspace="8">
     </font>
